@@ -15,6 +15,9 @@ Reports are shared with other app users to help them see recent beach conditions
 
 The app uses Google Firebase Authentication to manage guest accounts and Cloud Firestore to store reports and related records. If you email support, your email address and any information you include are used to respond to and handle your request.
 
+Firebase Authentication and Cloud Firestore collect diagnostic information for analytics about how those services operate. This diagnostic information is not linked to your guest account and is not used for tracking.
+
+
 How long information is kept
 The app uses reports from the past four hours to show recent conditions. A report falling outside that window is no longer used to show current conditions, but it is not automatically deleted at that point.
 
